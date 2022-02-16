@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* header section style start */
+
+.header_section {
+    background-image: url('./Images/header.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header_contant {
+    padding: 100px 120px;
+}
+
+.header_contant .header_title h1 {
+    font-size: 55px;
+    color: #fff;
+}
+
+.header_catagory {
+    color: #fff;
+    margin-top: 160px;
+    display: flex;
+}
+
+.header_catagory .catagory_one,
+.catagory_two {
+    width: 350px;
+}
+
+.fa-solid,
+.fas {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    margin-top: 35px;
+    font-size: 40px;
+    color: yellow;
+}
+
+
+/* header section style start */
+
+
+/* section two start */
+
+.section_two {
+    padding: 50px 120px;
+    background-color: black;
+}
+
+.learn_more {
+    margin: 0px auto;
+    color: #fff;
+    text-align: center;
+    padding: 66px 100px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+
+.learn_more i {
+    color: #fff;
+    padding: 18px;
+}
+
+.learn_more h1 {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.services .card {
+    padding: 50px 30px;
+}
+
+.services .card h3 {
+    color: #fff;
+}
+
+.services .card span {
+    background-color: rgb(223, 223, 72);
+}
+
+.services .card p {
+    color: #fff;
+    margin-top: 10px;
+}
+
+
+/* section two end */
+
+
+/* Acces The industy section start */
+
+.section_three {
+    background-color: antiquewhite;
+    padding: 100px 120px;
+}
+
+.access_the_left {
+    padding: 65px 25px;
+}
+
+.access_the_left h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.access_the_left p {
+    font-weight: 400;
+    padding: 18px 0px;
+}
+
+.access_the_left .Button {
+    padding: 8px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+}
+
+.access_the_left .Button:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: rgb(15, 14, 14);
+    cursor: pointer;
+}
+
+.access_the {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.access_the_right img {
+    width: 80%;
+    height: 414px;
+}
+
+.access_the_left i {
+    font-size: 51px;
+    color: #efce55;
+    padding: 7px;
+}
+
+
+/* Acces The industy section end */
+
+.galary {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.galary .items img {
+    width: 100%;
+    height: 320px;
+}
+
+
+/* section six start */
+
+.section_six {
+    background-color: bisque;
+    padding: 100px 120px;
+}
+
+.start_earning {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.start_earning_pic img {
+    width: 100%;
+}
+
+.start_earning_contant_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/* section six end */
+
+footer {
+    padding: 100px 120px;
+    background-color: black;
+}
+
+.footer_contant {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact_us {
+    color: #fff;
+}
