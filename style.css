@@ -53,7 +53,7 @@
 
 .section_two {
     padding: 50px 120px;
-    background-color: black;
+    background-color: #141824;
 }
 
 .learn_more {
@@ -105,7 +105,7 @@
 /* Acces The industy section start */
 
 .section_three {
-    background-color: antiquewhite;
+    background-color: #E8EAE3;
     padding: 100px 120px;
 }
 
@@ -171,17 +171,19 @@
 /* section six start */
 
 .section_six {
-    background-color: bisque;
+    background-color: #E8EAE3;
     padding: 100px 120px;
 }
 
 .start_earning {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
 
 .start_earning_pic img {
-    width: 100%;
+    width: 80%;
+    height: 414px;
 }
 
 .start_earning_contant_info {
@@ -189,12 +191,25 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.info_one h3,
+.info_two h3 {
+    margin: 17px 0px;
+}
+
+.info_one i,
+.info_two i {
+    color: #F0C927;
+}
+
 
 /* section six end */
 
+
+/* footer section style start */
+
 footer {
     padding: 100px 120px;
-    background-color: black;
+    background-color: #141824;
 }
 
 .footer_contant {
@@ -204,4 +219,63 @@ footer {
 
 .contact_us {
     color: #fff;
+    position: relative;
 }
+
+.contact_us_title h1 {
+    z-index: 1;
+    position: absolute;
+}
+
+.contact_us_title::before {
+    content: "";
+    position: absolute;
+    width: 234px;
+    height: 36px;
+    left: 59px;
+    top: 65px;
+    background-color: #F1C50E;
+}
+
+.contact_us_small {
+    padding: 61px 42px 20px 0px;
+}
+
+.contact_us i {
+    font-size: 42px;
+    padding: 10px;
+    color: #c5ab38;
+}
+
+.social_icons i {
+    font-size: 26px;
+    color: #FFB600;
+}
+
+
+/* form style start */
+
+form {
+    text-align: center;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 69%;
+    background-color: transparent;
+    padding: 10px 15px;
+    border: 1px solid white;
+    color: #fff;
+}
+
+input[type=submit] {
+    padding: 10px 15px;
+    margin-left: 50px;
+}
+
+
+/* form style end */
+
+
+/* footer section style start */
