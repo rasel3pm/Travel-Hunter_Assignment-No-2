@@ -1,7 +1,7 @@
 @media only screen and (max-width: 480px) {
-    /* header section style start */
+    /* header section responsive start */
     .header_section {
-        height: 100vh;
+        height: 550px;
     }
     .header_contant {
         padding: 15px 25px;
@@ -11,12 +11,14 @@
     }
     .header_catagory {
         margin-top: 40px;
+        flex-direction: column;
     }
     .header_catagory .catagory_one,
     .catagory_two {
-        width: 245px;
+        width: 253px;
     }
-    /* section two start */
+    /* header section responsive end */
+    /* Learn More. Book More. Earn More section responsive start*/
     .section_two {
         padding: 50px 30px;
     }
@@ -36,23 +38,33 @@
     .services .card {
         padding: 20px 30px;
     }
+    .card_item::before {
+        height: 36px;
+        width: 240px;
+        top: 17px;
+    }
     .services .card span {
         background-color: rgb(197, 197, 71);
     }
     .services .card p {
         font-weight: 300;
     }
-    /* section two end */
+    /* Learn More. Book More. Earn More section responsive end*/
     .section_three {
         background-color: antiquewhite;
         padding: 50px 20px;
     }
     .access_the_left {
-        padding: 0px 0px;
+        padding: 19px 0px;
     }
     .access_the {
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .access_the_title::before {
+        width: 291px;
+        left: 73px;
+        top: 83px;
     }
     .access_the_right img {
         width: 85%;
@@ -61,7 +73,7 @@
     .galary {
         grid-template-columns: 1fr;
     }
-    /* section six start */
+    /* section six responsive start */
     .section_six {
         padding: 50px 20px;
     }
@@ -71,7 +83,8 @@
     .start_earning_contant_info {
         grid-template-columns: 1fr;
     }
-    /* section six end */
+    /* section six responsive end */
+    /* footer section responsive start */
     footer {
         padding: 50px 20px;
     }
@@ -82,5 +95,5 @@
         padding: 10px 15px;
         margin-left: 9px;
     }
-    /* footer */
+    /* footer section responsive end */
 }
