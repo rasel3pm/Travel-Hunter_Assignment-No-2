@@ -62,7 +62,7 @@
         grid-template-columns: 1fr;
     }
     .access_the_title::before {
-        width: 291px;
+        width: 280px;
         left: 73px;
         top: 83px;
     }
